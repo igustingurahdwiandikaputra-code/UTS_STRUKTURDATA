@@ -58,12 +58,14 @@ Referensi
 # 3. Desain Sistem dan Implementasi
 ALGORITMA AntreanRS
 DEKLARASI:
+
     MAX = 5
     queue = Array[0..MAX-1]
     front = -1
     rear = -1
 
 PROSEDUR ENQUEUE(nama_pasien):
+
     IF rear == MAX - 1 THEN
         PRINT "Antrean Penuh"
     ELSE
@@ -73,6 +75,7 @@ PROSEDUR ENQUEUE(nama_pasien):
         PRINT nama_pasien + " Berhasil Masuk"
 
 FUNGSI DEQUEUE():
+
     IF front == -1 THEN
         PRINT "Antrean Kosong"
     ELSE
@@ -83,6 +86,7 @@ FUNGSI DEQUEUE():
             front = front + 1
 
 PROSEDUR DISPLAY():
+
     IF front == -1 THEN
         PRINT "Kosong"
     ELSE
