@@ -56,105 +56,38 @@ Referensi
 •	Fundamentals of Data Structures 
 
 # 3. Desain Sistem dan Implementasi
-Alur Sistem (Input → Proses → Output)
-•	Input: Nama pasien
+ALGORITMA AntreanRS
+DEKLARASI:
+    MAX = 5
+    queue = Array[0..MAX-1]
+    front = -1
+    rear = -1
 
-•	Proses: 
+PROSEDUR ENQUEUE(nama_pasien):
+    IF rear == MAX - 1 THEN
+        PRINT "Antrean Penuh"
+    ELSE
+        IF front == -1 THEN front = 0
+        rear = rear + 1
+        queue[rear] = nama_pasien
+        PRINT nama_pasien + " Berhasil Masuk"
 
-o	Enqueue (tambah pasien ke antrian) 
+FUNGSI DEQUEUE():
+    IF front == -1 THEN
+        PRINT "Antrean Kosong"
+    ELSE
+        PRINT "Melayani: " + queue[front]
+        IF front == rear THEN
+            front = rear = -1
+        ELSE
+            front = front + 1
 
-o	Dequeue (menghapus pasien yang dilayani) 
-
-o	Peek (melihat pasien terdepan) 
-
-o	Display (menampilkan semua antrean) 
-
-•	Output: 
-
-o	Daftar antrean pasien
-
-o	Pasien yang sedang dilayani 
-
-Flowchart (Teks)
-
-```
-Mulai
-
-  ↓
-  
-Input pasien
-
-  ↓
-  
-Pilih menu
-
-  ├─ Enqueue (tambah antrian)
-  
-  ├─ Dequeue (layani pasien)
-  
-  ├─ Peek (lihat depan)
-  
-  ├─ Display (tampilkan semua)
-  
-  ↓
-  
-Tampilkan hasil
-
-  ↓
-  
-Selesai
-```
-
-Pseudocode
-
-```
-Inisialisasi queue array
-
-MAX = 5
-
-front = -1
-
-rear = -1
-```
-
-ENQUEUE(data):
-
-    jika rear == MAX-1:
-    
-        tampilkan "Antrian penuh"    
-        
-    jika front == -1:
-    
-        front = 0
-        
-    rear = rear + 1
-    
-    queue[rear] = data
-    
-DEQUEUE():
-
-    jika front == -1:
-    
-        tampilkan "Antrian kosong"
-        
-    tampilkan queue[front]
-    
-    jika front == rear:
-    
-        front = rear = -1
-        
-    else:
-    
-        front = front + 1
-
-PEEK():
-
-    tampilkan queue[front]
-
-DISPLAY():
-
-    tampilkan semua dari front sampai rear
-
+PROSEDUR DISPLAY():
+    IF front == -1 THEN
+        PRINT "Kosong"
+    ELSE
+        FOR i FROM front TO rear DO
+            PRINT queue[i]
 # 4. Kesimpulan
 
 •	Sistem berhasil menerapkan queue berbasis array 
