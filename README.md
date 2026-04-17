@@ -114,10 +114,15 @@ rear = -1
 ENQUEUE(data):
 
     jika rear == MAX-1:
-        tampilkan "Antrian penuh"        
+    
+        tampilkan "Antrian penuh"    
+        
     jika front == -1:
+    
         front = 0
+        
     rear = rear + 1
+    
     queue[rear] = data
     
 DEQUEUE():
@@ -148,7 +153,7 @@ DISPLAY():
 
 •	Sistem berhasil menerapkan queue berbasis array 
 
-•	Sistem berjalan sesuai prinsip FIFO 
+•	Sistem berjalan sesuai prinsip Firts In First Out (FIFO) 
 
 •	Pasien yang datang lebih awal dilayani lebih dulu 
 
