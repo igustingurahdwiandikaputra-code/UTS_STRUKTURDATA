@@ -6,6 +6,8 @@ I Gusti Ngurah Dwi Andika Putra (2501010016)
 
 I Made Pande Raditya Prameswara (2501010365)
 
+Ni Putu Riska Pramesti Cahya Dewi (2501010315)
+
 # Sistem Antrean Pasien Rumah Sakit Menggunakan Queue Berbasis Array
 
 # 1. Rumusan Masalah dan Solusi
