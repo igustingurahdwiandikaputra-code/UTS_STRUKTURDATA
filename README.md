@@ -77,6 +77,7 @@ o	Pasien yang sedang dilayani
 
 Flowchart (Teks)
 
+```
 Mulai
 
   ↓
@@ -102,9 +103,11 @@ Tampilkan hasil
   ↓
   
 Selesai
+```
 
 Pseudocode
 
+```
 Inisialisasi queue array
 
 MAX = 5
@@ -112,6 +115,7 @@ MAX = 5
 front = -1
 
 rear = -1
+```
 
 ENQUEUE(data):
 
