@@ -2,7 +2,7 @@
 
 # NAMA KELOMPOK
 
-I Gusti Ngurah Dwi Andika Putra (2501010016)
+I Gusti Ngurah Dwi Andika Putra (2501010016) (igustingurahdwiandikaputra-code)
 
 I Made Pande Raditya Prameswara (2501010365)
 
