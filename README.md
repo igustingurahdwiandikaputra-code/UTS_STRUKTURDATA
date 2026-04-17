@@ -1,17 +1,21 @@
 # UTS_STRUKTURDATA
 # Sistem Antrean Pasien Rumah Sakit Menggunakan Queue Berbasis Array
 
-1. Rumusan Masalah dan Solusi
-Rumusan Masalah
+# 1. Rumusan Masalah dan Solusi
+# Rumusan Masalah
 1.	Bagaimana struktur data queue dapat digunakan untuk mengelola antrean pasien di rumah sakit secara teratur? 
 2.	Bagaimana implementasi array dapat digunakan untuk menyimpan data antrean pasien secara sederhana? 
 3.	Bagaimana sistem ini dapat membantu meningkatkan efisiensi pelayanan pasien di rumah sakit? 
-Solusi
+# Solusi
 Sistem ini menggunakan struktur data queue dengan prinsip FIFO (First In First Out), yaitu pasien yang datang lebih awal akan dilayani terlebih dahulu.
 Masalah yang sering terjadi:
-•	antrean tidak teratur 
-•	pasien saling mendahului 
-•	pelayanan menjadi lambat 
+
+a. antrean tidak teratur 
+
+b. pasien saling mendahului 
+
+c. pelayanan menjadi lambat 
+
 Solusi sistem:
 •	pasien dimasukkan ke dalam antrian array 
 •	dilayani sesuai urutan masuk 
