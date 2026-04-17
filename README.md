@@ -1,4 +1,9 @@
 # UTS_STRUKTURDATA
+
+# NAMA KELOMPOK
+
+I Gusti Ngurah Dwi Andika Putra (2501010016)
+
 # Sistem Antrean Pasien Rumah Sakit Menggunakan Queue Berbasis Array
 
 # 1. Rumusan Masalah dan Solusi
@@ -50,65 +55,104 @@ Referensi
 
 # 3. Desain Sistem dan Implementasi
 Alur Sistem (Input → Proses → Output)
-•	Input: Nama pasien 
+•	Input: Nama pasien
+
 •	Proses: 
+
 o	Enqueue (tambah pasien ke antrian) 
+
 o	Dequeue (menghapus pasien yang dilayani) 
+
 o	Peek (melihat pasien terdepan) 
+
 o	Display (menampilkan semua antrean) 
+
 •	Output: 
-o	Daftar antrean pasien 
+
+o	Daftar antrean pasien
+
 o	Pasien yang sedang dilayani 
 
 Flowchart (Teks)
+
 Mulai
+
   ↓
+  
 Input pasien
+
   ↓
+  
 Pilih menu
+
   ├─ Enqueue (tambah antrian)
+  
   ├─ Dequeue (layani pasien)
+  
   ├─ Peek (lihat depan)
+  
   ├─ Display (tampilkan semua)
+  
   ↓
+  
 Tampilkan hasil
+
   ↓
+  
 Selesai
 
 Pseudocode
+
 Inisialisasi queue array
+
 MAX = 5
+
 front = -1
+
 rear = -1
 
 ENQUEUE(data):
+
     jika rear == MAX-1:
-        tampilkan "Antrian penuh"
+        tampilkan "Antrian penuh"        
     jika front == -1:
         front = 0
     rear = rear + 1
     queue[rear] = data
-
+    
 DEQUEUE():
+
     jika front == -1:
+    
         tampilkan "Antrian kosong"
+        
     tampilkan queue[front]
+    
     jika front == rear:
+    
         front = rear = -1
+        
     else:
+    
         front = front + 1
 
 PEEK():
+
     tampilkan queue[front]
 
 DISPLAY():
+
     tampilkan semua dari front sampai rear
 
 # 4. Kesimpulan
 
 •	Sistem berhasil menerapkan queue berbasis array 
+
 •	Sistem berjalan sesuai prinsip FIFO 
+
 •	Pasien yang datang lebih awal dilayani lebih dulu 
+
 •	Array membuat implementasi sederhana dan mudah dipahami 
+
 •	Sistem ini membantu meningkatkan keteraturan antrean pasien di rumah sakit 
 
