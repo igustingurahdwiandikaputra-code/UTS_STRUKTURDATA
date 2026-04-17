@@ -84,3 +84,10 @@ Input: Petugas memasukkan nama atau ID pasien ke dalam sistem.
 Proses: Sistem memasukkan data ke posisi belakang (Enqueue). Jika ada pemanggilan, sistem mengambil data dari posisi depan (Dequeue).
 
 Output: Layar menampilkan nomor urut yang sedang dilayani dan daftar pasien yang masih menunggu.
+
+# kesimpulan
+Dengan adanya sistem digital berbasis Queue, potensi terjadinya penyerobotan antrian oleh pasien yang datang belakangan dapat dihilangkan secara total. Setiap pasien mendapatkan kepastian nomor urut dan estimasi waktu pelayanan yang lebih transparan, sehingga ketertiban di loket pendaftaran rumah sakit dapat terjaga dengan baik.
+
+Implementasi program berjalan sepenuhnya sesuai dengan landasan teori struktur data Queue. Operasi Enqueue berhasil menempatkan data di posisi belakang (rear), dan operasi Dequeue secara konsisten menghapus data dari posisi depan (front). Hal ini membuktikan bahwa prinsip FIFO (First-In-First-Out) merupakan mekanisme yang paling tepat dan adil secara logis untuk diterapkan pada sistem pelayanan publik yang bersifat kronologis.
+
+Penggunaan struktur data Queue (dibandingkan dengan Stack) memberikan manfaat krusial dalam menjaga keadilan pelayanan. Jika menggunakan Stack (LIFO), pasien yang terakhir datang justru akan dilayani terlebih dahulu, yang tentu saja akan menimbulkan konflik di lapangan. Dengan Queue, manajemen memori data pasien menjadi lebih terorganisir, memudahkan petugas dalam memantau beban kerja secara real-time melalui fungsi Display, dan memastikan tidak ada data pasien yang terlewat dalam proses pelayanan.
