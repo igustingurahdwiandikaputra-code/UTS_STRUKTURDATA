@@ -1,5 +1,8 @@
 # UTS_STRUKTURDATA
 
+# Link PPT
+https://canva.link/qbc0njolucvnl3e
+
 # NAMA KELOMPOK
 
 I Gusti Ngurah Dwi Andika Putra (2501010016) (igustingurahdwiandikaputra-code)
