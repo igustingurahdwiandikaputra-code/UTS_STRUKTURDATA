@@ -6,7 +6,7 @@ I Gusti Ngurah Dwi Andika Putra (2501010016) (igustingurahdwiandikaputra-code)
 
 I Made Pande Raditya Prameswara (2501010365) (maderadit22-lang)
 
-Ni Putu Riska Pramesti Cahya Dewi (2501010315)
+Ni Putu Riska Pramesti Cahya Dewi (2501010315) (niputuriskapramesticahyadewi-maker)
 
 # Sistem Antrian Rumah Sakit
 
