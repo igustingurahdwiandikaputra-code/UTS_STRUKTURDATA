@@ -88,6 +88,13 @@ Proses: Sistem memasukkan data ke posisi belakang (Enqueue). Jika ada pemanggila
 
 Output: Layar menampilkan nomor urut yang sedang dilayani dan daftar pasien yang masih menunggu.
 
+# Desain Sistem Dan Implementasi
+
+<img width="1882" height="3158" alt="Flowchart" src="https://github.com/user-attachments/assets/e75a6cbb-9598-4312-8f95-959e560c1790" />
+
+# Penjelasan Alur Flowchart
+Flowchart tersebut menggambarkan alur kerja sistem antrean rumah sakit yang dimulai dari proses Mulai, kemudian sistem melakukan inisialisasi data antrean beserta kapasitas maksimalnya. Setelah itu, pengguna diarahkan ke menu utama untuk memilih beberapa opsi yang tersedia. Jika pengguna memilih untuk menampilkan semua antrean, sistem akan terlebih dahulu mengecek apakah antrean kosong; jika kosong maka akan ditampilkan pesan “Antrian Kosong”, sedangkan jika tidak kosong maka sistem akan menampilkan seluruh data pasien dalam antrean. Pada pilihan melihat pasien terdepan (peek), sistem juga melakukan pengecekan yang sama, yaitu jika antrean kosong maka akan muncul pesan “Antrian Kosong”, dan jika tidak maka pasien paling depan akan ditampilkan. Selanjutnya, pada proses menghapus pasien terdepan (dequeue), sistem kembali memeriksa apakah antrean kosong; jika ya maka tidak ada data yang bisa dihapus, namun jika tidak maka pasien terdepan akan dikeluarkan dari antrean. Pada opsi menambahkan pasien ke antrean (enqueue), sistem akan mengecek apakah antrean sudah penuh; jika penuh maka muncul pesan “Antrian Penuh”, sedangkan jika belum penuh maka pasien baru akan ditambahkan ke dalam antrean. Setelah setiap proses dijalankan, alur akan kembali ke menu utama sehingga pengguna dapat memilih operasi lain. Proses ini akan terus berulang hingga pengguna memilih opsi keluar, yang kemudian mengakhiri program pada bagian Selesai. Flowchart ini menerapkan konsep struktur data antrean (queue) dengan prinsip FIFO (First In First Out), yaitu pasien yang datang lebih dulu akan dilayani lebih dulu.
+
 # kesimpulan
 Dengan adanya sistem digital berbasis Queue, potensi terjadinya penyerobotan antrian oleh pasien yang datang belakangan dapat dihilangkan secara total. Setiap pasien mendapatkan kepastian nomor urut dan estimasi waktu pelayanan yang lebih transparan, sehingga ketertiban di loket pendaftaran rumah sakit dapat terjaga dengan baik.
 
