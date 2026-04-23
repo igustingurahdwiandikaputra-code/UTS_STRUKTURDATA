@@ -90,10 +90,23 @@ Output: Layar menampilkan nomor urut yang sedang dilayani dan daftar pasien yang
 
 # Desain Sistem Dan Implementasi
 
-<img width="1882" height="3158" alt="Flowchart" src="https://github.com/user-attachments/assets/e75a6cbb-9598-4312-8f95-959e560c1790" />
+<img width="1086" height="1448" alt="ChatGPT Image 23 Apr 2026, 17 31 31" src="https://github.com/user-attachments/assets/d9ec50e3-9361-4090-810e-4b11203bbea9" />
+
 
 # Penjelasan Alur Flowchart
-Flowchart tersebut menggambarkan alur kerja sistem antrean rumah sakit yang dimulai dari proses Mulai, kemudian sistem melakukan inisialisasi data antrean beserta kapasitas maksimalnya. Setelah itu, pengguna diarahkan ke menu utama untuk memilih beberapa opsi yang tersedia. Jika pengguna memilih untuk menampilkan semua antrean, sistem akan terlebih dahulu mengecek apakah antrean kosong; jika kosong maka akan ditampilkan pesan “Antrian Kosong”, sedangkan jika tidak kosong maka sistem akan menampilkan seluruh data pasien dalam antrean. Pada pilihan melihat pasien terdepan (peek), sistem juga melakukan pengecekan yang sama, yaitu jika antrean kosong maka akan muncul pesan “Antrian Kosong”, dan jika tidak maka pasien paling depan akan ditampilkan. Selanjutnya, pada proses menghapus pasien terdepan (dequeue), sistem kembali memeriksa apakah antrean kosong; jika ya maka tidak ada data yang bisa dihapus, namun jika tidak maka pasien terdepan akan dikeluarkan dari antrean. Pada opsi menambahkan pasien ke antrean (enqueue), sistem akan mengecek apakah antrean sudah penuh; jika penuh maka muncul pesan “Antrian Penuh”, sedangkan jika belum penuh maka pasien baru akan ditambahkan ke dalam antrean. Setelah setiap proses dijalankan, alur akan kembali ke menu utama sehingga pengguna dapat memilih operasi lain. Proses ini akan terus berulang hingga pengguna memilih opsi keluar, yang kemudian mengakhiri program pada bagian Selesai. Flowchart ini menerapkan konsep struktur data antrean (queue) dengan prinsip FIFO (First In First Out), yaitu pasien yang datang lebih dulu akan dilayani lebih dulu.
+Flowchart ini menggambarkan sistem antrian rumah sakit yang berjalan secara berurutan dari awal hingga selesai. Proses dimulai dari “Mulai”, yang menandakan program dijalankan. Setelah itu masuk ke tahap inisialisasi antrian, yaitu menyiapkan struktur data (queue) yang akan digunakan untuk menyimpan daftar pasien.
+
+Selanjutnya, pengguna masuk ke menu “Pilih Menu”, di mana sistem menunggu input dari user. Pada bagian “Pilihan?”, sistem akan menentukan tindakan berdasarkan menu yang dipilih.
+
+Jika pengguna memilih:
+
+Tambah Pasien, maka sistem akan mengecek apakah kapasitas antrian masih tersedia. Jika masih ada, pasien akan ditambahkan ke dalam antrian.
+Layani Pasien, sistem akan mengecek apakah antrian kosong atau tidak. Jika tidak kosong, pasien yang berada di posisi paling depan akan dilayani dan dikeluarkan dari antrian.
+Lihat Depan, sistem juga mengecek apakah antrian kosong. Jika tidak, maka akan menampilkan pasien yang berada di urutan pertama.
+
+Setelah salah satu proses tersebut dilakukan, alur akan menuju ke bagian “Tampilkan Antrian”, yaitu menampilkan seluruh daftar pasien yang sedang berada dalam antrian saat itu.
+
+Terakhir, proses berakhir di bagian “Selesai”, yang menandakan sistem berhenti.
 
 # kesimpulan
 Dengan adanya sistem digital berbasis Queue, potensi terjadinya penyerobotan antrian oleh pasien yang datang belakangan dapat dihilangkan secara total. Setiap pasien mendapatkan kepastian nomor urut dan estimasi waktu pelayanan yang lebih transparan, sehingga ketertiban di loket pendaftaran rumah sakit dapat terjaga dengan baik.
