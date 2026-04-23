@@ -88,7 +88,7 @@ Proses: Sistem memasukkan data ke posisi belakang (Enqueue). Jika ada pemanggila
 
 Output: Layar menampilkan nomor urut yang sedang dilayani dan daftar pasien yang masih menunggu.
 
-# Desain Sistem Dan Implementasi
+# Desain Sistem Dan Implementasi  (flowchart)
 
 <img width="1086" height="1448" alt="ChatGPT Image 23 Apr 2026, 17 31 31" src="https://github.com/user-attachments/assets/d9ec50e3-9361-4090-810e-4b11203bbea9" />
 
